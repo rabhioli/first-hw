@@ -1,6 +1,6 @@
 //************** section 1
 // 1. What does the acronym DRY stand for? Why should we pay attention to it? What programming tools have we learned to write DRY code
-// DRY is an abbreviation for "Don't Repeat Yourself." Developers are encouraged by a software development philosophy to refrain from repeating code inside a project. 
+// DRY is an abbreviation for "Don't Repeat Yourself." we are encouraged by a software development philosophy to refrain from repeating code inside a project. 
 // The goal is to build code in a reusable, modular fashion so that updates or changesmay be done just once, minimizing the possibility of inconsistencies and simplifying 
 // codebase maintenance. 
 
@@ -86,4 +86,42 @@ for (let i = 0; i <= 999; i++) {
   }
 
 //***********************section 5
-//
+//# Copy this text into your `.bash` homework file. Copy and paste the code you successfully used into terminal below each prompt
+//mkdir galaxy_far_far_away
+//mkdir death_star
+//touch darth_vader.txt
+//touch princess_leia.txt
+//touch storm_trooper.txt
+//cd galaxy_far_far_away
+//mkdir tatooine
+//touch luke.txt
+//touch ben_kenobi.txt
+//cd tatooine
+//mkdir millenium_falcon
+//cd millenium_falcon
+//touch han_solo.txt
+//touch chewbaca.txt
+//mv ben_kenobi.txt obi_wan.txt
+//cp death_star/storm_trooper.txt tatooine/
+//mv luke.txt obi_wan.txt millenium_falcon/
+//mv tatooine/millenium_falcon galaxy_far_far_away/
+//mv galaxy_far_far_away/millenium_falcon death_star/
+// princess_leia.txt death_star/millenium_falcon/
+//rm death_star/obi_wan.txt
+// mkdirgalaxy_far_far_away/yavin_4
+//mv death_star/millenium_falcon galaxy_far_far_away/yavin_4/
+//mkdir galaxy_far_far_away/yavin_4/x_wing
+//mv galaxy_far_far_away/yavin_4/millenium_falcon/princess_leia.txt galaxy_far_far_away/yavin_4/
+//mv galaxy_far_far_away/yavin_4/x_wing/luke.txt galaxy_far_far_away/yavin_4/x_wing/ 
+//mv galaxy_far_far_away/yavin_4/millenium_falcon galaxy_far_far_away/
+//mv galaxy_far_far_away/yavin_4/x_wing galaxy_far_far_away/
+//mkdir death_star/tie_fighter_1 death_star/tie_fighter_2 death_star/tie_fighter_3
+//mv death_star/darth_vader.txt death_star/tie_fighter_1/
+//cp death_star/storm_trooper.txt death_star/tie_fighter_2/
+//cp death_star/storm_trooper.txt death_star/tie_fighter_3/
+//mv death_star/tie_fighter_1 death_star/tie_fighter_2 death_star/tie_fighter_3 galaxy_far_far_away/
+//rm galaxy_far_far_away/tie_fighter_2/* galaxy_far_far_away/tie_fighter_3/*
+//touch galaxy_far_far_away/x_wing/the_force.txt
+//mv galaxy_far_far_away/x_wing galaxy_far_far_away/yavin_4/
+//mv galaxy_far_far_away/millenium_falcon galaxy_far_far_away/yavin_4/
+
