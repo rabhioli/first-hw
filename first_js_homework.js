@@ -1,3 +1,4 @@
+//************** section 1
 // 1. What does the acronym DRY stand for? Why should we pay attention to it? What programming tools have we learned to write DRY code
 // DRY is an abbreviation for "Don't Repeat Yourself." Developers are encouraged by a software development philosophy to refrain from repeating code inside a project. 
 // The goal is to build code in a reusable, modular fashion so that updates or changesmay be done just once, minimizing the possibility of inconsistencies and simplifying 
@@ -34,7 +35,7 @@ console.log(g);  // 110
 // A variable should have a value assigned to it, such as g = 10. This will set the variable g's value to 10
 
 
-//section 3
+//*******************section 3
 
 //Is the code below an infinite loop? Why or why not?
 // This is a infinite loop because the code will keep doing the same thing over and over again forever because it's told to. Its like a broken record that wont
@@ -45,3 +46,44 @@ console.log(g);  // 110
 // the loop will keep running forever, and you'll need to stop it manually.
 //their would be a syntax error
 
+let letters = "A";
+//let letters = "A" This initializes a variable letters with the value "A"
+let i = 0;
+//let i = 0 This initializes a variable i with the value 0.
+while (i < 20) {
+//while (i < 20) {: This is the start of a while loop. It specifies that the loop will continue executing as long as the condition i < 20 is true.
+	letters += "A";
+//Inside the loop, this line appends another "A" to the letters string. So, in each iteration, it adds an "A" to the end of the existing string.
+	i++;
+//This increments the value of i by 1 in each iteration.
+
+}
+//This marks the end of the while loop.
+
+
+//******************************** section 4
+//A for loop performs the same operation as a while loop. But what are the key differences, if any? What are the similarities?
+//A for loop is like when you know exactly how many times you need to do something, like doing a task 5 times. 
+//A while loop is for when you're not sure how many times you'll need to do something, and you keep doing it as long as a certain condition is true, 
+//like saying "keep doing this until I say stop". Both loops are ways to repeat tasks, like chores or homework.
+
+for (let i = 0; i <= 999; i++) {
+    console.log(i);
+  }
+  for (let i = 999; i >= 0; i--) {
+    console.log(i);
+  }
+  for (let i = 1; i <= 10; i++) {
+    console.log("Current value of i is: " + i);
+  }
+  
+  const StarWars = ["Han", "C3PO", "R2D2", "Luke", "Leia", "Anakin"];
+  for (let i = 0; i < StarWars.length; i++) {
+    console.log(StarWars[i]);
+  }
+  for (let i = 0; i < StarWars.length; i++) {
+    console.log(`Character ${i}: ${StarWars[i]}`);
+  }
+
+//***********************section 5
+//
